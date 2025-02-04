@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danish Sayyad - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('AdobeStock_214469252.jpg') no-repeat center;
+            background-size: cover;
+            color: white;
+        }
+        nav {
+            background: rgba(51, 51, 51, 0.8);
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        .hero img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .projects, .about {
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        .project-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .project-card {
+            width: 300px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .project-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .project-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#" onclick="window.open('https://www.linkedin.com/in/danishsayyad/', '_blank')">LinkedIn</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <img src="danish.jpg" alt="Danish Sayyad">
+        <h1>Hi, I'm Danish Sayyad</h1>
+        <p>Web Developer | AI&DS Student | Passionate about Data Science</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Here's a detailed **About Me** section you can use for your portfolio:  
+
+            ---
+            
+            ### About Me  
+            
+            Hello! I’m **Danish Sayyad**, a passionate **Web Developer** and **AI&DS Student** currently pursuing my studies at **Suman Ramesh Tulsiani College of Engineering**. My interest in **technology, artificial intelligence, and web development** drives me to explore innovative solutions and build impactful digital experiences.  
+            
+            From an early stage, I have been deeply fascinated by how technology shapes our world. I started my journey with **Python programming**, later expanding my skills to **data analytics, data visualization, and web development**. My expertise lies in creating **responsive, dynamic, and user-friendly web applications**.  
+            
+            I have worked on several projects, including a **responsive web page** and a **collaborative team-based website development project**. Additionally, I have a strong grasp of **data structures and algorithms**, which helps me optimize code efficiency and problem-solving skills.   
+            </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="Pic-1.png" alt="Project 1">
+                <h3>Responsive Web Page</h3>
+                <p>Developed a fully responsive and interactive webpage using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <img src="Screenshot 2025-02-03 230839.png" alt="Project 2">
+                <h3>STOPWATCH WEBAPP</h3>
+                <p>Collaborated with a team of 3 to design and build the Webapp.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Danish Sayyad. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
