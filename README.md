@@ -3,7 +3,7 @@ Here’s a sample README for your portfolio website project:
 
 ---
 
-# Prodigy Internship Task 5: Portfolio Website
+# Prodigy Internship Task 4: Portfolio Website
 
 ## Overview
 This repository contains the code for my portfolio website, developed as part of my internship task at Prodigy. The website showcases my work, skills, and projects as a Web Developer. It is a responsive, multi-page website built with HTML, CSS, and JavaScript, designed to present my professional identity and skills in a user-friendly way.
